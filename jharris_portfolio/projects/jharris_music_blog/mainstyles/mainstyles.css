@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kaushan+Script&family=PT+Sans+Caption:wght@400;700&display=swap');
+/*
+  font-family: "Kaushan Script", cursive;
+  font-family: "Creepster", system-ui;
+  font-family: "PT Sans Caption", sans-serif;
+*/
+header {
+    background: #dfe;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    background-size: cover;
+    background-position: 100%;
+  font-family: "Creepster", system-ui;
+}
+
+main {
+    text-align: center;
+  font-family: "PT Sans Caption", sans-serif;
+
+}
+
+section {
+    text-align: center;
+margin: 20px;
+padding:10px;
+border-top: 1px solid #9211d5;
+  font-family: "PT Sans Caption", sans-serif;
+}
+
+table, tr, th, td {
+margin-left: auto;
+margin-right: auto;
+    border: 1px solid #555;
+    border-collapse: collapse;
+    padding: 10px;
+  font-family: "Kaushan Script", cursive;
+    }
+    
+thead {
+    color: #1ce3b2;
+    background-color: #000;
+}
+section {
+text-align: center;
+}
+
+footer {
+    margin-top: 10px;
+    background: #dfe;
+    color: #500d41;
+    padding: 5px;
+    text-align: center;
+}
+@media (max-width: 710px) {
+    header {
+padding: 9%;
+
+}
+  }
+
+  @media (max-width: 710px) {
+    main img {
+padding: 10%;
+   width: 250px; height: 200px;
+}
+  }
